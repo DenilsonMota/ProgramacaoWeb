@@ -1,0 +1,111 @@
+/*REGRAS GERAIS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+	font-family: 'Roboto';font-family: 'Roboto', sans-serif;
+}
+
+/*CONFIGURAÇÕES GERAIS*/
+
+.navbar-brand .logo {
+
+	width: 70px;
+}
+
+#nav {
+
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(105,61,104,1) 100%);
+	box-shadow: 2px 2px 2px #cdcdcd;
+	position: sticky;
+	top: 0;
+	z-index: 9;
+	margin-bottom: 5px;
+}
+
+#navbarNav ul li a {
+
+	color: #fff;
+	font-weight: bold;
+}
+
+
+#navbarNav ul li a:hover {
+
+	color: #000;
+	background: #fff;
+	border-radius: 4px;
+}
+
+#imgbanner{
+
+	height: 500px;
+}
+
+/*CONFIGURAÇÕES SERVIÇOS*/
+
+#blocos {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#blocos .bloco1 {
+
+	font-size: 30px;
+	padding-top: 0px;
+}
+
+.icones {
+
+	color:#693d68;
+	font-size: 40px;
+	margin-right: 10px;
+
+}
+
+.destaque {	
+
+	font-size: 17px;
+	padding: 15px;
+	padding-top: 20px;
+	color: #000;
+}
+
+.destaque-texto {
+
+	font-size: 20px;
+	font-weight: bold;
+	color:#693d68;
+}
+
+.main-title {
+
+	color: #000;
+	text-align: center;
+	margin: 0 0 40px 0;
+	font-size: 40px;
+}
+
+.main-title::after {
+	content: "";
+	border-bottom: 1px solid #000;
+	position:absolute;
+	width: 15%;
+	left: 42.5%;
+
+}
+
+/*CONTATO*/
+
+#contato {
+	margin-bottom: 150px;
+}
+
+#footer {
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(105,61,104,1) 100%);	
+}
+
+.logo_footer {
+	height: 120px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
