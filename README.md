@@ -1,4 +1,4 @@
-# https://denilsonmota.github.io/ProgramacaoWeb]
+# https://denilsonmota.github.io/ProgramacaoWeb
 
 Descrição do Projeto:
 Landing Page criada para a disciplina de Programação Web no curso de desenvolvimento de sistema - SENAI.
